@@ -8,10 +8,12 @@
 
 import UIKit
 
+
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        LabOutlet.hidden = true
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -20,5 +22,13 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBOutlet weak var LabOutlet: UILabel!
+    @IBAction func ShowButt(sender: AnyObject)
+    {
+        LabOutlet.hidden = false
+        LabOutlet.text = "HI"
+    
+    }
+    
 }
 

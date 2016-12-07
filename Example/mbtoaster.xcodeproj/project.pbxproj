@@ -15,6 +15,7 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		74DCEE581DF7E8AB00450E16 /* mbtoaster.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74DCEE571DF7E8AB00450E16 /* mbtoaster.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,9 +30,9 @@
 
 /* Begin PBXFileReference section */
 		0088CE1094281B0CE5CFAF92 /* Pods-mbtoaster_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mbtoaster_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mbtoaster_Example/Pods-mbtoaster_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		0D69A0115DE26ADB1715707D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		0D69A0115DE26ADB1715707D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		24D8AD147099125A119041D1 /* Pods_mbtoaster_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mbtoaster_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		4D1FEB3D57721492B25FC36D /* mbtoaster.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = mbtoaster.podspec; path = ../mbtoaster.podspec; sourceTree = "<group>"; };
+		4D1FEB3D57721492B25FC36D /* mbtoaster.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = mbtoaster.podspec; path = ../mbtoaster.podspec; sourceTree = "<group>"; };
 		590F2B97C279E7258A56D0CC /* Pods-mbtoaster_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mbtoaster_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-mbtoaster_Tests/Pods-mbtoaster_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* mbtoaster_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mbtoaster_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -43,7 +44,8 @@
 		607FACE51AFB9204008FA782 /* mbtoaster_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mbtoaster_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		73FCA79C8D95F9E71B8916FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		73FCA79C8D95F9E71B8916FF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		74DCEE571DF7E8AB00450E16 /* mbtoaster.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = mbtoaster.framework; path = "../../../../Library/Developer/Xcode/DerivedData/mbtoaster-ghczxtrrqadnxrfwfvhdudaabzoc/Build/Products/Debug-iphonesimulator/mbtoaster/mbtoaster.framework"; sourceTree = "<group>"; };
 		B4E57F5EB5184CEEAE708015 /* Pods-mbtoaster_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mbtoaster_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mbtoaster_Tests/Pods-mbtoaster_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C3ABEDBC1159F94DF0038003 /* Pods_mbtoaster_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mbtoaster_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD649EC266E6B2C52876F9EA /* Pods-mbtoaster_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mbtoaster_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-mbtoaster_Example/Pods-mbtoaster_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				74DCEE581DF7E8AB00450E16 /* mbtoaster.framework in Frameworks */,
 				5B7568885979FEC139FC1D2F /* Pods_mbtoaster_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -153,6 +156,7 @@
 		B6D2C41BB3B14729A313C095 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				74DCEE571DF7E8AB00450E16 /* mbtoaster.framework */,
 				24D8AD147099125A119041D1 /* Pods_mbtoaster_Example.framework */,
 				C3ABEDBC1159F94DF0038003 /* Pods_mbtoaster_Tests.framework */,
 			);
