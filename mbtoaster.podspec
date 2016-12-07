@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
 
   s.description      = 'This is just showing the toaster in three different places(top,middle,bottom) - mbtoaster'
 
-  s.homepage         = 'https://github.com/ManickB/mbtoaster.git'
+  s.homepage         = 'https://github.com/ManickB/mbtoaster'
 
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Manick' => 'manicktesting16@gmail.com' }
