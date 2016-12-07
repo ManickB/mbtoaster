@@ -1,7 +1,7 @@
 use_frameworks!
 
 target 'mbtoaster_Example' do
-  pod 'mbtoaster', :path => '../'
+  pod 'mbtoaster', :path => 'https://github.com/ManickB/mbtoaster.git'
 
   target 'mbtoaster_Tests' do
     inherit! :search_paths

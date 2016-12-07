@@ -22,7 +22,7 @@ pod "mbtoaster"
 
 ## Author
 
-hari, jana.hariprasad@gmail.com
+Manick, manicktesting16@gmail.com
 
 ## License
 
